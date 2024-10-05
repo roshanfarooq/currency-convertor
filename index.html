@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Covertor</title>
+  <link rel="stylesheet" href="stayle.css">
+  <link href="script.js" rel="" >
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#">Currency Convertor</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h2>Choose a Currency to Convert</h2>
+    <form class="flex">
+      <div >
+    <h3>Choose a Quantity</h3>
+    <input type="number" name="Quantity" >
+    <h3>Choose a Currency</h3>
+    <select class="slct1" name="Currency">
+        <option value="PKR">Pakistani Rupee</option>
+        <option value="INR">Indian Rupee</option>
+        <option value="USD">US Dollar</option>
+        <option value="EUR">Euro</option>
+        <option value="NZD">New Zeland Dollar</option>
+        <option value="AUD">Australian Dollar</option>
+        <option value="GBP">British Pound</option>
+        <option value="KWD">Kuwaiti Dinar</option>
+       
+    </select><br>
+    <button class="btn" type="submit">All Currencies Result</button>
+    </div>
+    
+    </form>
+    <!-- <form>
+      <div class="margin-top-2">
+        <h3 class="margin-top">Choose Currency in Which You Want Result</h3>
+          <select class="slct2" name="Currency2">
+              <option value="PKR">Pakistani Rupee</option>
+              <option value="INR">Indian Rupee</option>
+              <option value="USD">US Dollar</option>
+              <option value="EUR">Euro</option>
+              <option value="NZD">New Zeland Dollar</option>
+              <option value="AUD">Australian Dollar</option>
+              <option value="GBP">British Pound</option>
+              <option value="KWD">Kuwaiti Dinar</option>
+             
+          </select><br>
+          <button class="btn2" type="submit">Selected Cur result</button>
+          </div>
+    </form> -->
+    <div class="output">
+        <h2>Converted Currencies</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Currency Key</th>
+                    <th>Currency Code</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+  </div>
+    <footer>All Rights Reserved 2024</footer>
+  <script src="script.js"></script>
+</body>
+</html>

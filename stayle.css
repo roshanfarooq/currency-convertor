@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .navbar {
+    background-color: #333;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+  }
+  
+  .nav-links li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ff6600;
+  }
+
+  .container{
+    width: 80vw;
+    margin: auto;
+  }
+  .container h2{
+    margin: 10px 0px;
+  }
+  .container h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+  }
+  .container input{
+    margin: 10px 0px;
+    width: 20vw;
+  }
+  span{
+    font-weight: bold;
+  }
+  .btn{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #333;
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: #ff6600;
+    transition: 0.5s;
+  }
+.output table{
+    margin-top: 20px;
+    border: 2px solid gray;
+    width: 50vw;
+    text-align: center;
+    
+}
+
+
+.output h2{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.output{
+  display: none;
+}
+
+.margin-top{
+  margin-top: 3vh;
+}
+.margin-top-2{
+  margin-top: 7vh;
+}
+
+.flex{
+  display: flex;
+}
+footer{
+  width: 100vw;
+  color: white;
+  margin: auto;
+  margin-top: 50vh;
+  padding: 5px;
+  background-color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+  /* Responsive for small screens */
+  @media (max-width: 768px) {
+    .navbar{
+        gap:5px;
+        flex-direction: column;
+    }
+    .logo a{
+        font-size: 17px;
+    }
+    .container input {
+      margin: 10px 0px;
+      width: 41vw;
+  }
+  .container h2 {
+    margin: 10px 0px;
+    font-size: 20px;
+    th{
+      font-size: 15px;
+    }
+    tbody{
+      font-size: 18px;
+    }
+}
+    .navbar .nav-links li a{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    footer{
+      font-size: 12px;
+    }
+  }
+  
